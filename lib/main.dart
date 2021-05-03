@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:muse/splash.dart';
+import 'package:muse/views/auth/auth.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -8,7 +9,7 @@ void main() {
       theme: ThemeData(
         primaryColor: Colors.white,
       ),
-      home: SplashScreen()
+      home: SplashScreen(redirect: Auth())
     )
   );
 }
