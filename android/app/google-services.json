@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "366423493081",
+    "project_id": "muse-2021",
+    "storage_bucket": "muse-2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366423493081:android:1d9fcd92bb9e57c76f31c8",
+        "android_client_info": {
+          "package_name": "com.example.muse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366423493081-271tpael7jesub87bdufskglo3pd50dv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.muse",
+            "certificate_hash": "c84cf253bfe4f6ebe17b91e6829b272d9a9fab93"
+          }
+        },
+        {
+          "client_id": "366423493081-rr7o2798i6pbfq3ivgmv5df5vgr05go1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnXX1QJGygOCdMlK91XQJkD-wpCfOn2GA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366423493081-rr7o2798i6pbfq3ivgmv5df5vgr05go1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
