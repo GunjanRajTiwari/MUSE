@@ -8,7 +8,7 @@ void main() {
       theme: ThemeData(
         primaryColor: Colors.white,
       ),
-      home: Splash()
+      home: SplashScreen()
     )
   );
 }
