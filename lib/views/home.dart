@@ -5,10 +5,15 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.white,
+        centerTitle: true,
+        automaticallyImplyLeading: false,
         title: Text(
-          'MUSE',
+          'Home',
           style: TextStyle(
-            color: Colors.greenAccent,
+            color: Theme.of(context).primaryColor,
+            fontSize: 24.0,
+            fontWeight: FontWeight.normal
           ),
         ),
         elevation: 0.0,

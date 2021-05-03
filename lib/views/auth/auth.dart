@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:muse/mainApp.dart';
 import 'package:muse/splash.dart';
-import 'package:muse/views/home.dart';
 import 'package:muse/widgets/button.dart';
 
 final Color primary = Color(0xFF31D0AA);
@@ -41,7 +41,7 @@ class _AuthState extends State<Auth> {
               alt: false,
               color: primary,
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => SplashScreen(redirect: Home(), time:2,)));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => SplashScreen(redirect: MainApp(), time:2,)));
               },
             ),
             Text(

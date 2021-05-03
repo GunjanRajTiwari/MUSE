@@ -7,7 +7,7 @@ void main() {
       title: 'MUSE',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Colors.white,
+        primaryColor: Color(0xFF31D0AA),
       ),
       home: SplashScreen(redirect: Auth())
     )
