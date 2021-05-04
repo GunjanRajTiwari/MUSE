@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:muse/controler/google_auth.dart';
 import 'package:muse/mainApp.dart';
 import 'package:muse/splash.dart';
 import 'package:muse/widgets/button.dart';
@@ -41,7 +42,8 @@ class _AuthState extends State<Auth> {
               alt: false,
               color: primary,
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => SplashScreen(redirect: MainApp(), time:2,)));
+                signInWithGoogle(context);
+                // Navigator.push(context, MaterialPageRoute(builder: (context) => SplashScreen(redirect: MainApp(), time:2,)));
               },
             ),
             Text(

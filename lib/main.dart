@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:muse/splash.dart';
 import 'package:muse/views/auth/auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MaterialApp(
       title: 'MUSE',
       debugShowCheckedModeBanner: false,
